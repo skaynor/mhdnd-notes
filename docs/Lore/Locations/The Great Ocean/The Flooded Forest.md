@@ -1,0 +1,1 @@
+Located on one of the slightly larger islands near [[Moga Village]], the flooded forest hunting ground is a large forested wetland with many sections partially, or even completely, submerged. This habitat is ideal for a large range of creatures, including most aquatic Leviathans (lagiacrus, royal ludroth, ludroth, and gobul) and a variety of insects and mushrooms.

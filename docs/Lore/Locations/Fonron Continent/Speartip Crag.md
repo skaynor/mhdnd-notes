@@ -1,0 +1,1 @@
+This large mountainous area is home to the massive elder dragon Dalamadur. It is the mountain about [[Heaven's Mount]].

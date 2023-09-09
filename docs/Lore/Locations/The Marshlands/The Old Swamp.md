@@ -1,0 +1,3 @@
+This hunting ground is situated in the Jio Telado Marsh. It takes up a large part of the marsh and is known for its numerous caves and a very wet landscape. Dense fog can make visibility low in some areas. In other areas, the ground is too mushy to lay down pitfall traps. The numerous caves, while freezing, hold large clusters of beautiful crystals. The Old Swamp is teeming with insects, as well as numerous plants and mushrooms. In most areas of this environment a blue tinge is visible in the sky and fog.
+![[The Wetlands 1-4.png]]
+![[The Wetlands 5-20.png]]

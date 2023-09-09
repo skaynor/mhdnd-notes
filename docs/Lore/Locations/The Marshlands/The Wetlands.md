@@ -1,0 +1,1 @@
+The Wetlands, better known as the Swamp, is not too far away from Joi Telado Marsh, This swamps weather is in constant, but predictable flux. It is hit by rain during the day while some portions of the land are covered in poisonous muck during the night. This area has many types of aquatic vegetation along with different species of fungus.

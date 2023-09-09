@@ -1,0 +1,1 @@
+The Lava Canyon is found at the very center of the Volcanic Belt. It is a sunken area surrounded by ever flowing lava falls from all directions. These lava falls feed the lava pool surrounding the massive lava rock and ash covered patch of ground in the center of the area. Creatures like the Akantor have been known to make this area their lair.

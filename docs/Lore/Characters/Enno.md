@@ -1,0 +1,4 @@
+The Handler for the party. Raised by the Guild Manager dwarf, [[Karrak]]. She was orphaned as a baby by unknown parents, at the steps of one of the Guild Halls in [[Dundorma]]. The Wyverian manager of that Hall rejected her for being a half-wyverian (thought to be sacrileges) and [[Karrak]] took her in instead (as he too had lost his family).
+
+The only remnant of her origins is a Shah Dalamadur Gazer that Karrak later inlaid into a small dagger that she now carries on her hip.
+- Guts+2. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this property, you can’t use it again until you finish a short or long rest.

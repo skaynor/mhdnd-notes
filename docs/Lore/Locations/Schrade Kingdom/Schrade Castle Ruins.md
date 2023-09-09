@@ -1,0 +1,1 @@
+An abandoned castle that was built long ago, but is now in ruins, a shadow of its former glory. The area around the ruins features blood red skies that have dark hues, and swirls of eerie purple clouds.

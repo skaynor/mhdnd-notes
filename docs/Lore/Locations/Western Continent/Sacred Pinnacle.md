@@ -1,0 +1,1 @@
+The known lair of the Amatsumagatsuchi, the Sacred Pinnacle is located high in the mountains surrounding [[Yukumo Village]]. The sky in this area is blood red, with swirls of grey and purple. Roaring, gale-force winds can be heard at all times.

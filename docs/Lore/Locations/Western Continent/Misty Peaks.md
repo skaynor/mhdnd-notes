@@ -1,0 +1,4 @@
+A large mountain range on the southern border of the primal forest, the Misty Peaks are a gorgeous and unique rule unto themselves. Home to some of the most dangerous creatures, this mountain range encompasses caves, waterfalls, a forgotten and ruined village, and even a brush filled marshland.
+
+#### Hunting Grounds - The Misty Peaks
+Misty Peak Hunting Ground is close to [[Yukumo Village]] and is a scenic area, high up within the mountains. The hunting ground features are similar to the rest of the misty peaks. This location features tall, rocky spires, lush forests of bamboo and deciduous trees, and several bodies of freshwater. it is home to many large monsters such as Arzuros, Rathian, Zinogre and Mizutsune.

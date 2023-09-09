@@ -1,0 +1,77 @@
+site_name: Tale of the Five
+theme:
+  name: material
+  icon:
+    logo: material/gesture-pinch
+  features:
+    - content.code.annotate
+    - content.tooltips
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: orange
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: brown
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  # Python Markdown (i.e. bundled)
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - nl2br
+  - toc:
+      permalink: true
+
+  # Python Markdown Extension
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - roamlinks
+#  - ezlinks
+# - obsidian-bridge
+  - callouts
+  - glightbox
+  - exclude:
+      glob:
+        - .trash/*
+        - export/*
+        - oas-templates/*
+        - private/*

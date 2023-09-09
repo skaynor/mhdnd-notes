@@ -1,0 +1,1 @@
+The Underwater Ruins is a ruin of an ancient civilization sunken deep beneath Moga Island. A dragonator and two ballistae are found in these ruins, supposedly build by the old ancestors of the Moga Village Chief to keep monsters that attempt to make it their home, like ceadeus, at bay.

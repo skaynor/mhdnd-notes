@@ -1,0 +1,1 @@
+The Polar Fields is a combination of glacial sheets, pack ice, and icebergs that have slowly formed together over thousands of years. This area is characterized by its steep ice cliffs and vast polar fields. Throughout the year, an aurora can be seen in the night sky. Temperatures here are punishingly low, and so a hot drink must be carried at all times.

@@ -1,0 +1,1 @@
+This lair is the top of the giant tree at the center of the Great Forest.

@@ -1,0 +1,1 @@
+The Deserted Island hunting ground is characterized by peaceful temperature, deep bodies of ocean water, seaside caves, highland regions, and streams of fresh water. The Deserted Island has a variety of micro-ecosystems within its heart ranging from a den of jaggi to the expansive coastline.

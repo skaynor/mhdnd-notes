@@ -1,0 +1,1 @@
+The Hunting ground in the Polar Field is an arena-like area inhabited by powerful monsters like the Ukanlos, Rusted Kushala Daora, Grimclaw Tigrex, and Elderfrost Gammoth. Its appearance is much the same as the rest of the polar fields except for the steppe cliffs that surround it.

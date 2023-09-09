@@ -1,0 +1,1 @@
+The Jurassic Frontier hunting ground is an island filled with primitive plants. The ecosystem for this area has many different types of resources along with a variety of species such as larinoth, great maccao, and glavenus.
