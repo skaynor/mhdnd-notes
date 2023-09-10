@@ -7,3 +7,6 @@ test:
 
 build:
 	mkdocs build
+
+publish:
+	mkdocs gh-deploy --force
