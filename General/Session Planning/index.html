@@ -1,0 +1,3620 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../How%20am%20I%20running%20things%3F/">
+      
+      
+        <link rel="next" href="../Tasks/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+    
+    
+      
+        <title>Session 1 - Tale of the Five</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="green">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#session-1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Tale of the Five" class="md-header__button md-logo" aria-label="Tale of the Five" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9a1 1 0 0 1 1-1 1 1 0 0 1 1 1v4.47l1.21.13 4.94 2.2c.52.24.85.76.85 1.34v4.36c-.03.82-.68 1.47-1.5 1.5H14c-.38 0-.74-.15-1-.43l-4.9-4.2.74-.77c.19-.21.46-.32.74-.32h.22L13 19V9m1-4c1.42 0 2.74.76 3.45 2 1.11 1.9.46 4.35-1.45 5.46v-1.23c.64-.56 1-1.38 1-2.23a3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .85.36 1.67 1 2.23v1.23c-1.23-.71-2-2.03-2-3.46a4 4 0 0 1 4-4M4 9l3 3H5v3H3v-3H1l3-3m0-2L1 4h2V1h2v3h2L4 7m5 7c.73 0 1.41.19 2 .54v1.22c-.53-.47-1.23-.76-2-.76a3 3 0 0 0-3 3c0 1 .5 1.87 1.22 2.42L9.31 22H9a4 4 0 0 1-4-4 4 4 0 0 1 4-4Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tale of the Five
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Session 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Tale of the Five" class="md-nav__button md-logo" aria-label="Tale of the Five" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9a1 1 0 0 1 1-1 1 1 0 0 1 1 1v4.47l1.21.13 4.94 2.2c.52.24.85.76.85 1.34v4.36c-.03.82-.68 1.47-1.5 1.5H14c-.38 0-.74-.15-1-.43l-4.9-4.2.74-.77c.19-.21.46-.32.74-.32h.22L13 19V9m1-4c1.42 0 2.74.76 3.45 2 1.11 1.9.46 4.35-1.45 5.46v-1.23c.64-.56 1-1.38 1-2.23a3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .85.36 1.67 1 2.23v1.23c-1.23-.71-2-2.03-2-3.46a4 4 0 0 1 4-4M4 9l3 3H5v3H3v-3H1l3-3m0-2L1 4h2V1h2v3h2L4 7m5 7c.73 0 1.41.19 2 .54v1.22c-.53-.47-1.23-.76-2-.76a3 3 0 0 0-3 3c0 1 .5 1.87 1.22 2.42L9.31 22H9a4 4 0 0 1-4-4 4 4 0 0 1 4-4Z"/></svg>
+
+    </a>
+    Tale of the Five
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            General
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Differences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Differences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../General%20Resource%20Links/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General Resource Links
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../How%20am%20I%20running%20things%3F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How am I running things?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Session 1
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Session 1
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-start-of-the-journey" class="md-nav__link">
+    The Start of the Journey:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-notes" class="md-nav__link">
+    Session Notes:
+  </a>
+  
+    <nav class="md-nav" aria-label="Session Notes:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hunting-roles" class="md-nav__link">
+    Hunting Roles:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chosen-hunt" class="md-nav__link">
+    Chosen Hunt:
+  </a>
+  
+    <nav class="md-nav" aria-label="Chosen Hunt:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-the-hunt" class="md-nav__link">
+    On the hunt:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review" class="md-nav__link">
+    Review:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tasks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tasks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lore
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Lore
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Characters
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Characters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Characters/Enno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Enno
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Characters/His%20Immenseness/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    His Immenseness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Characters/Karrak/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Karrak
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Locations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Locations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Fonron Continent
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Fonron Continent
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Fonron%20Continent/-Fonron%20Continent/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     Fonron Continent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Fonron%20Continent/Bateyubatomu%20Great%20Forest/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bateyubatomu Great Forest
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Fonron%20Continent/Great%20Forest%20Peak/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Great Forest Peak
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Fonron%20Continent/Heaven%27s%20Mount/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heaven's Mount
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Fonron%20Continent/Speartip%20Crag/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Speartip Crag
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Fonron%20Continent/The%20Tower/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Tower
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    North El De Region
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            North El De Region
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/North%20El%20De%20Region/-North%20El%20De%20Region/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     North El De Region
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/North%20El%20De%20Region/Nganga/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nganga
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/North%20El%20De%20Region/The%20Battleground/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Battleground
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/North%20El%20De%20Region/The%20Lava%20Canyon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Lava Canyon
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/North%20El%20De%20Region/The%20Old%20Volcano/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Old Volcano
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/North%20El%20De%20Region/The%20Sacred%20Land/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Sacred Land
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/North%20El%20De%20Region/The%20Volcano/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Volcano
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" >
+        
+          <label class="md-nav__link" for="__nav_3_2_3" id="__nav_3_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Northern Region
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Northern Region
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/-The%20Northern%20Region/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     The Northern Region
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/Furahiya%20Mountains/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Furahiya Mountains
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/Pokke%20Village/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pokke Village
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/Polar%20Fields/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polar Fields
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/The%20Frozen%20Sea/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Frozen Sea
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/The%20Frozen%20Seaway/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Frozen Seaway
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/The%20Polar%20Field/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Polar Field
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/The%20Snowy%20Mountain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Snowy Mountain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/The%20Snowy%20Mountains%20Peak/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Snowy Mountains Peak
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/The%20Unknown%20Arctic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Unknown Arctic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Northern%20Region/Tundra/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tundra
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_4" >
+        
+          <label class="md-nav__link" for="__nav_3_2_4" id="__nav_3_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Odibatorasu Region
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Odibatorasu Region
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/-The%20Odibatorasu%20Region/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     The Odibatorasu Region
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/Loc%20Lac%20City/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Loc Lac City
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/Rekusara/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rekusara
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/Sekumea%20Desert/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sekumea Desert
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/The%20Dede%20Desert/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Dede Desert
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/The%20Desert/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Desert
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/The%20Dunes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Dunes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Odibatorasu%20Region/Val%20Habar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Val Habar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_5" >
+        
+          <label class="md-nav__link" for="__nav_3_2_5" id="__nav_3_2_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Other Notable Locations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Other Notable Locations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Other%20Notable%20Locations/Aya%20Country/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aya Country
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Other%20Notable%20Locations/Bherna/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bherna
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Other%20Notable%20Locations/Cheeko%20Sands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cheeko Sands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Other%20Notable%20Locations/Harth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Harth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Other%20Notable%20Locations/The%20Sky%20Corridor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Sky Corridor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_6" >
+        
+          <label class="md-nav__link" for="__nav_3_2_6" id="__nav_3_2_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Schrade Kingdom
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            Schrade Kingdom
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/-Schrade%20Kingdom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     Schrade Kingdom
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Arcolis%20Region/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arcolis Region
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Hinmerun%20Mountains/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hinmerun Mountains
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Metapetatto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metapetatto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Schrade%20Castle%20Ruins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Schrade Castle Ruins
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/The%20Old%20Jungle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Old Jungle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Verdant%20Hills/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verdant Hills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_6_8" >
+        
+          <label class="md-nav__link" for="__nav_3_2_6_8" id="__nav_3_2_6_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Eastern Schrade Kingdon
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_6_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            Eastern Schrade Kingdon
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Eastern%20Schrade%20Kingdon/-Eastern%20Schrade%20Kingdom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     Eastern Schrade Kingdom
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Eastern%20Schrade%20Kingdon/Dundorma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dundorma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Eastern%20Schrade%20Kingdon/Riveru/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Riveru
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_6_9" >
+        
+          <label class="md-nav__link" for="__nav_3_2_6_9" id="__nav_3_2_6_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Western Schrade Kingdom
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_6_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_6_9">
+            <span class="md-nav__icon md-icon"></span>
+            Western Schrade Kingdom
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Western%20Schrade%20Kingdom/-Western%20Schrade%20Kingdom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     Western Schrade Kingdom
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Western%20Schrade%20Kingdom/Kokoto%20Village/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kokoto Village
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Western%20Schrade%20Kingdom/Minegarde/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Minegarde
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Schrade%20Kingdom/Western%20Schrade%20Kingdom/Verudo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verudo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_7" >
+        
+          <label class="md-nav__link" for="__nav_3_2_7" id="__nav_3_2_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Siki Country
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            Siki Country
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Siki%20Country/-Siki%20Country/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     Siki Country
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Siki%20Country/Cathar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cathar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_8" >
+        
+          <label class="md-nav__link" for="__nav_3_2_8" id="__nav_3_2_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    South El De Region
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            South El De Region
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/South%20El%20De%20Region/-South%20El%20De%20Region/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     South El De Region
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/South%20El%20De%20Region/Volcano%203rd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Volcano 3rd
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_9" >
+        
+          <label class="md-nav__link" for="__nav_3_2_9" id="__nav_3_2_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Terosu Jungle
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_9">
+            <span class="md-nav__icon md-icon"></span>
+            Terosu Jungle
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Terosu%20Jungle/-The%20Terosu%20Jungle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     The Terosu Jungle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Terosu%20Jungle/Jumbo%20Village/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jumbo Village
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Terosu%20Jungle/The%20Jungle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Jungle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_10" >
+        
+          <label class="md-nav__link" for="__nav_3_2_10" id="__nav_3_2_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    The Great Ocean
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            The Great Ocean
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Great%20Ocean/-The%20Great%20Ocean/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     The Great Ocean
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Great%20Ocean/Islands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Islands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Great%20Ocean/Moga%20Village/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moga Village
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Great%20Ocean/The%20Deserted%20Island/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Deserted Island
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Great%20Ocean/The%20Flooded%20Forest/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Flooded Forest
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Great%20Ocean/The%20Jurassic%20Frontier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Jurassic Frontier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Great%20Ocean/Underwater%20Ruins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Underwater Ruins
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_11" >
+        
+          <label class="md-nav__link" for="__nav_3_2_11" id="__nav_3_2_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    The Marshlands
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            The Marshlands
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Marshlands/-The%20Marshlands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     The Marshlands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Marshlands/Jio%20Telado%20Marsh/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jio Telado Marsh
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Marshlands/The%20Old%20Swamp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Old Swamp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Marshlands/The%20Swamp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Swamp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/The%20Marshlands/The%20Wetlands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Wetlands
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_12" >
+        
+          <label class="md-nav__link" for="__nav_3_2_12" id="__nav_3_2_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Western Continent
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_12">
+            <span class="md-nav__icon md-icon"></span>
+            Western Continent
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Western%20Continent/-The%20Western%20Continent/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+     The Western Continent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Western%20Continent/Misty%20Peaks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Misty Peaks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Western%20Continent/Primal%20Forest/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primal Forest
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Western%20Continent/Sacred%20Pinnacle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sacred Pinnacle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Lore/Locations/Western%20Continent/Yukumo%20Village/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yukumo Village
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-start-of-the-journey" class="md-nav__link">
+    The Start of the Journey:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-notes" class="md-nav__link">
+    Session Notes:
+  </a>
+  
+    <nav class="md-nav" aria-label="Session Notes:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hunting-roles" class="md-nav__link">
+    Hunting Roles:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chosen-hunt" class="md-nav__link">
+    Chosen Hunt:
+  </a>
+  
+    <nav class="md-nav" aria-label="Chosen Hunt:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-the-hunt" class="md-nav__link">
+    On the hunt:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review" class="md-nav__link">
+    Review:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="session-1">Session 1<a class="headerlink" href="#session-1" title="Permanent link">&para;</a></h1>
+<h2 id="the-start-of-the-journey">The Start of the Journey:<a class="headerlink" href="#the-start-of-the-journey" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Starting Town: <em><a href="../../Lore/Locations/Schrade%20Kingdom/Eastern%20Schrade%20Kingdon/Dundorma/">Dundorma</a></em></li>
+<li>It is one day after the Spring Blossom Festival, where graduates from the Hunter Academies become fully fledged hunters and get assigned their duties (whether or not they all technically graduated for those with different backgrounds)<ul>
+<li>They are meeting together in the <a href="../../Lore/Locations/Schrade%20Kingdom/Eastern%20Schrade%20Kingdon/Dundorma/#the-hunter-district">Hunter District</a> to get assigned a <a href="../../Lore/Characters/Enno/">handler</a> to manage the party due to their large size</li>
+<li>Meeting at a smaller Guild Hall, Dodogama Hall, run by a mid-tier guild manager <a href="../../Lore/Characters/Karrak/">Karrak</a></li>
+<li>Having been sent to Karrak, this group is a "special" group that will take requests as they please and are free to be sent to any village<ul>
+<li>Most Hunters are stationed at one village for a large portion of their career, but having been suspicious of the group's abilities, they were assigned to Karrak, who had requested Enno be assigned to a hunting group.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>They are recommended a few hunts "of their skill level"</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Hunt Name</th>
+<th>Main Monster</th>
+<th>Difficulty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Wingdrake%20Roundup/Two%20Page%20Monster%20Hunt%20-%20Wingdrake%20Roundup.pdf">Wingdrake Roundup</a></td>
+<td>Wingdrakes</td>
+<td>Easy</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Tusked%20Tantrum/Two%20Page%20Monster%20Hunt%20-%20Tusked%20Tantrum.pdf">Tusked Tantrum</a></td>
+<td>Tetsucabra</td>
+<td>Medium/Hard</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/The%20Swirling%20Gale/Two%20Page%20Monster%20Hunt%20-%20The%20Swirling%20Gale.pdf">The Swirling Gale</a></td>
+<td>Great Izuchi</td>
+<td>Medium/Hard</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Dune%20the%20Honors/Monster%20Hunt%20-%20Dune%20the%20Honors.pdf">Dune the Honors</a></td>
+<td>Barroth</td>
+<td>Hard/Deadly</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Go%20Away%2C%20Pukei%21/Two%20Page%20Monster%20Hunt%20-%20Go%20Away%2C%20Pukei%21.pdf">Go Away, Pukei!</a></td>
+<td>Pukei-Pukei</td>
+<td>Deadly</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The BBEG has been having an influence on monsters for a while but only recently is it coming to the attention of the Guild.<ul>
+<li>Monsters are appearing in areas they are not native too </li>
+<li>Reports of erratic behavior among monsters have become more common</li>
+<li>Rumors of rampaging monsters found dead by hunters sent to deal with them, no sign of resistance by the monster or evidence of interference by a poacher or rogue hunter<ul>
+<li>There is magical evidence but few hunters are proficient enough with magic to recognize this</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="session-notes">Session Notes:<a class="headerlink" href="#session-notes" title="Permanent link">&para;</a></h2>
+<h3 id="hunting-roles">Hunting Roles:<a class="headerlink" href="#hunting-roles" title="Permanent link">&para;</a></h3>
+<ul>
+<li>(Gwen) Ilia: Scout</li>
+<li>(Matt) Adam: Trailblazer</li>
+<li>(Louis) Felonious: Artisan</li>
+<li>(Kale) Felix: Scout+</li>
+<li>(Ben) Trunk: Spotter+</li>
+<li>(Hailey) Lucerys: Spotter</li>
+</ul>
+<h3 id="chosen-hunt">Chosen Hunt:<a class="headerlink" href="#chosen-hunt" title="Permanent link">&para;</a></h3>
+<p><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Tusked%20Tantrum/Two%20Page%20Monster%20Hunt%20-%20Tusked%20Tantrum.pdf">Tusked Tantrum</a></p>
+<h4 id="on-the-hunt">On the hunt:<a class="headerlink" href="#on-the-hunt" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Felonious blows the artisan meal check out of the water<ul>
+<li>Mild Herbs</li>
+<li>Rolls Felyne Provoker on the Daily Skills chart<ul>
+<li>Once per meal, you can roll a d4 and add the number rolled to one saving throw of your choice. You can roll the die before or after making the saving throw.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>They completed the hunt without much struggle (only one downed, everyone else healthy)</p>
+<h3 id="review">Review:<a class="headerlink" href="#review" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Felonious got one shot without much counter-play<ul>
+<li>I had to do some weak targeting by the Tetsucabra to split damage and not kill everyone</li>
+<li>EVERYONE IS AT DANGER OF LIMB LOSS<ul>
+<li>Maybe don't implement disabilities for the sake of the campaign?</li>
+<li>I will put it up to party vote</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The party is vulnerable to CR 4 creatures<ul>
+<li>If Adam isn't grappling them they could just straight up die</li>
+</ul>
+</li>
+<li>I should balance encounters around multiple weaker monsters<ul>
+<li>1 CR 3 and a couple CR 1s </li>
+<li>Theropod battles work well for this formula</li>
+<li>or Great Jagras? (need to check CR)</li>
+</ul>
+</li>
+</ul>
+<h1 id="session-2">Session 2<a class="headerlink" href="#session-2" title="Permanent link">&para;</a></h1>
+<h2 id="new-lives-new-faces">New Lives, New Faces:<a class="headerlink" href="#new-lives-new-faces" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Starting Town: <em><a href="../../Lore/Locations/Schrade%20Kingdom/Eastern%20Schrade%20Kingdon/Dundorma/">Dundorma</a></em></li>
+<li>The party has returned from their first hunt and presumably spent the night at the guild hall<ul>
+<li>They are currently the only party assigned to Dodogama Hall, the first in the past couple years.<ul>
+<li>Since then, people have still used the hall as a place to stay, particularly for parties using Dundorma as a stopping point in a greater journey, but they haven't had anyone specifically assigned to them in years.</li>
+<li>Dodogama Hall is still funded and recognized by the Guild due to the hard work Karrak and for fear that he might try to rebel against them should he be threatened by the Guild as a whole. </li>
+</ul>
+</li>
+<li>Due to Karrak's estrangement from the greater Hunter's Guild, the hall has only ever been assign "undesirable" groups and misfits<ul>
+<li>The last party to be assigned to the Hall was sent off to the New World a couple years ago and have presumably been completing assignments there.</li>
+<li>Why is Karrak estranged from the rest of the Guild?<ul>
+<li>Racial. Not many dwarves are present in the organization other than in the smithy, but he is a former guild knight</li>
+<li>Incident in his former life as a Guild Knight, Guild negligence got his party killed</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>At this point I expect the party to try and investigate the town and story a bit more<ul>
+<li>Need a fuller understanding of all major characters' backstories</li>
+<li>Enno, Karrak, Kitel </li>
+</ul>
+</li>
+<li>Downtime activities will be explained, but not much the party can do at this point. (No money)</li>
+<li>Need to explain how gathering materials works on the hunt<ul>
+<li>Need to read more on it, but the party should start now if they want to improve their equipment at a decent pace</li>
+<li>There is a whole system about gathering resources on a hunt that I completely missed</li>
+<li>Essentially, during hunts and travel through areas you are allowed to look for resources up to the area's gather DC (with a limit on how often you can search for resources as well)</li>
+</ul>
+</li>
+<li>I need to make a couple fresh hunts<ul>
+<li>Requirements:<ul>
+<li>1 CR 3, 2 CR 1</li>
+<li>2-3 CR 2 (this might be a bit much)</li>
+<li>Couple encounters based on other hunts<ul>
+<li>Make a good number of gathering options available</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/The%20Swirling%20Gale/Two%20Page%20Monster%20Hunt%20-%20The%20Swirling%20Gale.pdf">Swirling Gale</a> is looking like a good pick for the party<ul>
+<li>Need to make a few more Theropod quests like this</li>
+<li>Wroggi and Baggi team up? or territory fighting?</li>
+</ul>
+</li>
+<li><strong><em>UPDATE:</em></strong> GWEN WILL BE ABSENT<ul>
+<li>I should scale the encounter for 4 2<sup>nd</sup> Level PCs</li>
+<li>Most of the damage in the last hunt came from Gwen so this will be easier for them</li>
+<li><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Wingdrake%20Roundup/Two%20Page%20Monster%20Hunt%20-%20Wingdrake%20Roundup.pdf">Wingdrake Roundup</a> should be relatively safe for them and I can use the easier nature of the hunt to help explain some of the gaps I was missing before about the gathering system during hunts.</li>
+<li>I should also get better about tracking time during hunts, it seems a lot of hunt events are time based </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Hunt Name</th>
+<th>Main Monster</th>
+<th>Difficulty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Gargwa%20Round-Up/Two%20Page%20Monster%20Hunt%20-%20Gargwa%20Round-Up.pdf">Gargwa Roundup</a></td>
+<td>Gargwa</td>
+<td>Trivial</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Wingdrake%20Roundup/Two%20Page%20Monster%20Hunt%20-%20Wingdrake%20Roundup.pdf">Wingdrake Roundup</a></td>
+<td>Wingdrakes</td>
+<td>Easy</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Musical%20Mischief/Two%20Page%20Monster%20Hunt%20-%20Musical%20Mischief.pdf">Musical Mischief</a></td>
+<td>Great Maccao</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/The%20Swirling%20Gale/Two%20Page%20Monster%20Hunt%20-%20The%20Swirling%20Gale.pdf">The Swirling Gale</a></td>
+<td>Great Izuchi</td>
+<td>Hard/Deadly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="session-notes_1">Session Notes:<a class="headerlink" href="#session-notes_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Felonious sells the Paddock Oil (250gp split amongst party)</li>
+<li>Party meets Kitel Grits in her tavern<ul>
+<li>No one picked up on her having sand on her tail as weird</li>
+</ul>
+</li>
+<li>Enno's dagger has not been brought up</li>
+<li>Party chose <a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Musical%20Mischief/Two%20Page%20Monster%20Hunt%20-%20Musical%20Mischief.pdf">Musical Mischief</a> hunt</li>
+<li>Party eats at the Flightless Tavern instead of cooking on the hunt (Should receive Level 1 benefits from most dishes and each day a rotating special will grant a Level 2 or higher)</li>
+</ul>
+<h3 id="hunting-roles_1">Hunting Roles:<a class="headerlink" href="#hunting-roles_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>(Matt) Adam: Trailblazer</li>
+<li>(Louis) Felonious: Artisan</li>
+<li>(Kale) Felix: Spotter</li>
+<li>(Ben) Trunk: Spotter+</li>
+<li>(Hailey) Lucerys: Scout</li>
+</ul>
+<h3 id="hunt-notes">Hunt Notes:<a class="headerlink" href="#hunt-notes" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Everyone takes 1 First Aid Potion and the party has a fishing rod and bug net</li>
+<li>Area 1<ul>
+<li>1 False Sign</li>
+<li>Felix finds <em>Small Bone Husk</em></li>
+</ul>
+</li>
+<li>Area 2<ul>
+<li>Party makes it through toad hell without a single explosion 🤯</li>
+<li>Felix finds <em>Brute Bone</em></li>
+</ul>
+</li>
+<li>Area 4<ul>
+<li>Party finds all the signs (rolled really well and got a benefit of 2 signs)</li>
+<li>Felix finds <em>Brute Bone</em></li>
+</ul>
+</li>
+<li>Area 9<ul>
+<li>They defeat the Great Maccao and it's allies without a death, only carving a <em>Bird Wyvern Fang</em> from one Maccao</li>
+</ul>
+</li>
+<li>Rewards:<ul>
+<li>They captured a fucking Maccao (Steven (Female))<ul>
+<li>Trunk needs to make a Strength Check every night and an Animal Handling Check every morning (Both contested by the same skill)</li>
+<li>Steven will become neutral after a week and affectionate after 2</li>
+</ul>
+</li>
+<li>Trunk has obtained the Rare Hunting Horn (I think he needs it)</li>
+</ul>
+</li>
+</ul>
+<h3 id="reward-summary">Reward Summary:<a class="headerlink" href="#reward-summary" title="Permanent link">&para;</a></h3>
+<ul>
+<li><em>Small Bone Husk, Brute Bone, Brute Bone, Bird Wyvern Fang, 900gp, Rare Hunting Horn, Steven</em></li>
+</ul>
+<h1 id="session-3">Session 3<a class="headerlink" href="#session-3" title="Permanent link">&para;</a></h1>
+<h2 id="somethings-amiss">Something's Amiss:<a class="headerlink" href="#somethings-amiss" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Starting Town: <em><a href="../../Lore/Locations/Schrade%20Kingdom/Eastern%20Schrade%20Kingdon/Dundorma/">Dundorma</a></em></li>
+<li>Party returns from their second hunt and Ilia comes back from her absence.</li>
+<li>No urgent reports from the higher ups of the guild, but there are stirrings of some things happening across the continent<ul>
+<li>Karrak is absent for a meeting between all of the Guild Managers</li>
+<li>Enno is "in charge" of the Hall until Karrak returns, but not much is expected to happen<ul>
+<li>The party needs to make a plan for the Steve, like are they just locking him in a room for a bit??</li>
+</ul>
+</li>
+<li>The next quest they take on will have an anomaly not listen in the original report<ul>
+<li>Monster will be enraged, have evidence of magic used on it, be undead</li>
+<li>Monster being enraged is good for the short term (as there is game implementation for that)<ul>
+<li>Monsters have become enraged due to attempts at ancient elder dragon magic (should have a dark, Fatalis-like, elder dragon glow to the monster)</li>
+</ul>
+</li>
+<li>Monster having magic used on it could be indicated by it having an extra damage type (fire, cold, lightning) that is different from its normal attribute</li>
+<li>Undead monsters should be saved for later as the party tries to understand more what the goal of the BBEG is</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Should the BBEG be near the party? Or are these older experiments coming forward. <ul>
+<li>His Immenseness has probably always been aware of this threat, but has chosen to ignore it as he was not causing any issues near Dundorma</li>
+<li>Now that the problem has spread closer to the city it becomes relevant to the higher ups of the Guild and they notice that other such reports further out have been carried out by the same person. </li>
+<li>This experiment is a week old, having been seen as a failure by BBEG, he left. But only now is it obvious that his work was a partial success, having influence the behavior of the monster using Elder Dragon magic.</li>
+<li>The Guild can tell that the BBEG is enraging monsters, but the one the party encounters will be the first report of a monster being angered by ancient magic (Enno will be the one to notice this)<ul>
+<li>After a few more incidents (3-4) the party will be assigned to go travel in the direction of the incidents being reported </li>
+<li>
+<h1 id="todo-figure-out-the-direction-the-party-and-bbeg-are-moving-in-figure-out-what-i-want-their-first-boss-encounter-to-be">todo Figure out the direction the party and BBEG are moving in, figure out what I want their first "boss" encounter to be<a class="headerlink" href="#todo-figure-out-the-direction-the-party-and-bbeg-are-moving-in-figure-out-what-i-want-their-first-boss-encounter-to-be" title="Permanent link">&para;</a></h1>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>A couple days have passed, but no new assignments have come in yet due to the Guild meeting. Currently the party has one quest available to them, or they can wait for Karrak to come back presumably with more requests from the Guild.<ul>
+<li>If the party chooses to wait for Karrak they are urgently assigned a quest that Karrak is nervous to send the party on but he cannot deny the request due to its urgency</li>
+<li>Enno will actively participate in the urgent quest</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Hunt Name</th>
+<th>Main Monster</th>
+<th>Difficulty</th>
+<th>When?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Dune%20the%20Honors/Monster%20Hunt%20-%20Dune%20the%20Honors.pdf">Dune the Honors</a></td>
+<td>Barroth x2</td>
+<td>Hard(?)</td>
+<td>Now</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Disruptive%20Eruption/Two%20Page%20Monster%20Hunt%20-%20Disruptive%20Eruption.pdf">Disruptive Eruption</a></td>
+<td>Barasarios</td>
+<td>Deadly</td>
+<td>Wait for Karrak</td>
+</tr>
+</tbody>
+</table>
+<h2 id="session-notes_2">Session Notes:<a class="headerlink" href="#session-notes_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Party waits for Karrak to return after a vote</li>
+<li>They have to take on <a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Disruptive%20Eruption/Two%20Page%20Monster%20Hunt%20-%20Disruptive%20Eruption.pdf">Disruptive Eruption</a></li>
+</ul>
+<h3 id="hunting-roles_2">Hunting Roles:<a class="headerlink" href="#hunting-roles_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>(Matt) Adam: Trailblazer</li>
+<li>(Hailey) Lucerys: Spotter</li>
+<li>(Ben) Trunk: Spotter+</li>
+<li>(Gwen) Ilia: Scout</li>
+<li>(Kale) Felix: Scout+</li>
+<li>(Louis) Felonious: Artisan</li>
+</ul>
+<h3 id="hunt-notes_1">Hunt Notes:<a class="headerlink" href="#hunt-notes_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Our wonderful artisan made some </li>
+<li>Area 1<ul>
+<li>No encounter, area is dusty af and not much can be seen</li>
+<li>Search for bones and get a <em>Sm Bone Husk</em></li>
+<li>1 sign found</li>
+</ul>
+</li>
+<li>Area 3<ul>
+<li>Absolutely nothing happens, still dusty</li>
+<li>2 signs found</li>
+</ul>
+</li>
+<li>Area 8 <ul>
+<li>Encounter 4 Bnahabra, still dusty<ul>
+<li>Man these guys hurt</li>
+</ul>
+</li>
+<li>Can only carve 3 of them, the other was squished<ul>
+<li><em>Bnahabra Shell, Bnahabra Wing, Monster Fluid</em></li>
+</ul>
+</li>
+<li>No signs</li>
+<li>Sleep (long rest)</li>
+<li>Decide to mine, find an <em>Armor Sphere</em></li>
+</ul>
+</li>
+<li>Area 4<ul>
+<li>Few Bnahabra, none are aggressive</li>
+<li>4 "rocks" are spread around<ul>
+<li>Lucerys mines some Earth Crystal and an Armor Sphere</li>
+</ul>
+</li>
+<li>Fight Basarios<ul>
+<li>Kill Basarios after it revives and gets killed by the magic</li>
+</ul>
+</li>
+<li>Carve the Basarios<ul>
+<li>2x <em>B.Poison Sac</em> and <em>Basarios Shell</em></li>
+</ul>
+</li>
+<li>carved some random Bnahabra<ul>
+<li><em>Bnahabra Shell</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="reward-summary_1">Reward Summary:<a class="headerlink" href="#reward-summary_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><em>Sm Bone Husk,</em> 2x <em>Bnahabra Shell, Bnahabra Wing, Monster Fluid,</em> 2x <em>Armor Sphere, Earth Crystal,</em> 2x <em>B.Poison Sac, Basarios Shell</em></li>
+</ul>
+<h1 id="session-4">Session 4<a class="headerlink" href="#session-4" title="Permanent link">&para;</a></h1>
+<h2 id="a-looming-threat">A Looming Threat:<a class="headerlink" href="#a-looming-threat" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Karrak and Enno have gone to the higher ups in the Guild to report on the anomaly witnessed in the previous session</li>
+<li>Felonious is away on summons (Louis won't be here), he will be asked as the Apprentice Guild Knight in the group to give his testimony of what he witnessed. He will not be given much info on the situation directly.<ul>
+<li>I will have to discuss with Louis if he tries to learn anything or if he just answers the questions as asked.</li>
+</ul>
+</li>
+<li>The rest of the party is left with limited quests to go on as they wait for word from Karrak and Enno on assignments or other opportunities.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Hunt Name</th>
+<th>Main Monster</th>
+<th>Difficulty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/Dune%20the%20Honors/Monster%20Hunt%20-%20Dune%20the%20Honors.pdf">Dune the Honors</a></td>
+<td>Barroth</td>
+<td>Hard</td>
+</tr>
+<tr>
+<td><a href="../../Monster%20Hunter%205e%20Resources/Monster%20Hunts/The%20Swirling%20Gale/Two%20Page%20Monster%20Hunt%20-%20The%20Swirling%20Gale.pdf">The Swirling Gale</a></td>
+<td>Great Izuchi</td>
+<td>Hard (ish)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="session-notes_3">Session Notes:<a class="headerlink" href="#session-notes_3" title="Permanent link">&para;</a></h2>
+<p>Lucerys is not present in this session (drug induced coma).</p>
+<p><strong>Trenya Rolls:</strong><br />
+Dunes 200gp: <em>Earth Crystal</em>, <em>Dung</em></p>
+<h3 id="hunting-roles_3">Hunting Roles:<a class="headerlink" href="#hunting-roles_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>(Matt) Adam: Trailblazer</li>
+<li>(Ben) Trunk: Spotter</li>
+<li>(Gwen) Ilia: Scout</li>
+<li>(Kale) Felix: Scout+</li>
+<li>(Louis) Felonious: Artisan</li>
+</ul>
+<h3 id="hunt-notes_2">Hunt Notes:<a class="headerlink" href="#hunt-notes_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Our wonderful artisan made some... slop</li>
+<li>Area 1<ul>
+<li>Good check but run into minor challlenge (4 hermitaurs)</li>
+<li>Roll for mining get<ul>
+<li><em>Earth Crystal</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Area 3<ul>
+<li>Find sign (1)</li>
+<li>Absolutely nothing else happens</li>
+<li>Roll for mining get<ul>
+<li><em>Earth Crystal</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Area 4<ul>
+<li>Find sign (2) and false sign (1)</li>
+<li>Absolutely nothing else happens</li>
+<li>Roll for mining get<ul>
+<li><em>Stone</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Area 10<ul>
+<li>Find sign (3) and one minor challenge</li>
+<li>Sandstrom af (disadvantage on perception) for 2 areas</li>
+<li>Roll for mining get<ul>
+<li><em>Earth Crystal</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Carve rewards from the fight:<ul>
+<li>Barroth Main: <em>Barroth Scalp, Barroth Gem</em></li>
+<li>Baby Barroth: <em>B. Barroth Shell</em> x2, <em>Fertile Mud</em></li>
+<li>Barroth Dedge: <em>Fertile Mud</em></li>
+</ul>
+</li>
+</ul>
+<h3 id="reward-summary_2">Reward Summary:<a class="headerlink" href="#reward-summary_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><em>Earth Crystal</em> x4, <em>Stone</em>, <em>Machalite Ore</em>, <em>Barroth Scalp</em>, <em>Barroth Gem</em>, <em>B. Barroth Shell</em> x2, <em>Fertile Mud</em> x2</li>
+</ul>
+<p>Trunk does not successfully progress Steven through the process of domestication.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
